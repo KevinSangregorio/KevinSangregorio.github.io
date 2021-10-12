@@ -200,6 +200,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+  display: flex;
+  justify-content: rigth;
 }
 #hero:before {
   content: "";
@@ -215,6 +217,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  padding-left: 40%;
 }
 #hero h1 {
   margin: 0 0 10px 0;
@@ -249,6 +252,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  #hero .hero-container {
+    padding-left: 50%;
   }
 }
 
@@ -317,6 +323,25 @@ section {
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hobbie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hobbies p{
+  margin-top: 10px;
+}
+
+.hobbies i {
+  font-size: 3rem;
 }
 
 /*--------------------------------------------------------------
@@ -950,5 +975,8 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+  #hero .hero-container {
+    padding-left: 55%;
   }
 }

@@ -27,6 +27,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -391,7 +399,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -421,6 +429,24 @@ section {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #050d18;
+}
+.skills h3 {
+  font-style: italic;
+  color: #173b6c;
+  margin-bottom: 1rem;
+}
+.skills h3:nth-of-type(2) {
+  margin-top: 3rem;
+}
+.skills i{
+  margin: 10px 15px 10px 0;
+  color: #0F71A2;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.skills li {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 
